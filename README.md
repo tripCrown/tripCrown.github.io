@@ -1,1 +1,2 @@
-# triplecrown6.github.io
+# 主页
+打开网址 triplecrown6.github.io
