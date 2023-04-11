@@ -5,6 +5,10 @@ on:
     branches:
       - main # default branch
 
+env:
+  THEME_REPO: wujun234/hexo-theme-tree
+  THEME_BRANCH: master
+
 jobs:
   pages:
     runs-on: ubuntu-latest
@@ -23,6 +27,12 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
+      - name: Checkout theme repo
+        uses: actions/checkout@v2
+        with:
+          repository: ${{ env.THEME_REPO }}
+          ref: ${{ env.THEME_BRANCH }}
+          path: themes/tree
       - name: Install Dependencies
         run: npm install
       - name: Build
