@@ -6,7 +6,7 @@ on:
       - main # default branch
 
 env:
-  THEME_REPO: wujun234/hexo-theme-tree
+  THEME_REPO: tripleCrown6/hexo-theme-tree
   THEME_BRANCH: master
 
 jobs:
