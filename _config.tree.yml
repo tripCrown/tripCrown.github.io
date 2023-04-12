@@ -13,6 +13,8 @@ links:
   github: https://github.com/tripleCrown6
   # 普通链接，可配置多个，以下是示例
   custom:
+    - name: 界面
+      URL: https://www.jiemian.com/ http://
     - name: 友链
       URL: http://baidu.com
 
