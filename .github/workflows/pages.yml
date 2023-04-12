@@ -7,7 +7,7 @@ on:
 
 env:
   THEME_REPO: tripleCrown6/hexo-theme-tree
-  THEME_BRANCH: master
+  THEME_BRANCH: custom
 
 jobs:
   pages:
