@@ -14,7 +14,7 @@ links:
   # 普通链接，可配置多个，以下是示例
   custom:
     - name: 友链
-      URL: http://null
+      URL: http://baidu.com
 
 
 # 可选, giscus 评论系统
