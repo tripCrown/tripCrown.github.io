@@ -7,7 +7,7 @@ on:
 
 env:
   THEME_REPO: tripleCrown6/hexo-theme-tree
-  THEME_BRANCH: custom
+  THEME_BRANCH: master
 
 jobs:
   pages:
@@ -32,7 +32,7 @@ jobs:
         with:
           repository: ${{ env.THEME_REPO }}
           ref: ${{ env.THEME_BRANCH }}
-          path: themes/tree
+          path: themes/tf-wordpress
       - name: Install Dependencies
         run: npm install
       - name: Build
